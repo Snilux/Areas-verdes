@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Luis Rolando Gordillo Porras, Oscar Dario Tinoco Lima, Efraín Osvaldo Salas Guzmán, Luis Jonathan Flores Enriquez">
+    <link rel="stylesheet" href="css/normalize.css"> <!-- Estilos generales -->
+    <link rel="stylesheet" href="styles.css"> <!-- Estilos -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+    </style> <!-- font -->
+    <link rel="shortcut icon" href="assets/icons/icon-tree.png">
+    <script src="https://kit.fontawesome.com/2d331443f6.js" crossorigin="anonymous"></script> <!-- Icons -->
+    <title>Áreas verdes</title>
+</head>
+<body>
+    <header>
+        <div class="main-nav" >
+            <div class="main-nav__menu" id="btnMenu" >
+                <ul>
+                    <li><i class="fas fa-bars" ></i></li>
+                </ul>
+            </div>
+            <div class="main-nav-input" >
+                <input type="text" id="search" value="Buscar..." onfocus="vaciar(this)" onblur="llenar(this)" >
+            </div>
+            <div class="title">
+                <a href="/index.html"><h1>Áreas Verdes</h1></a>  
+            </div>
+        </div>
+        <div class="main-nav__links" id="menu" >
+            <ul>
+                <a href="https://www.facebook.com/" target="_blank" ><li>Facebook</li></a>
+                <a href="https://www.instagram.com/" target="_blank" ><li>Instagram</li></a>
+                <a href="https://www.twitter.com/" target="_blank" ><li>Twitter</li></a>
+                <a href="https://www.youtube.com/" target="_blank" ><li>TouTube</li></a>
+                <a href="/pages/mas.html" ><li>Más</li></a>
+                <a href="/pages/sobre-nosotros.html" ><li>Sobre Nosotros</li></a>
+                <a href="/pages/contacto.html" ><li>Contacto</li></a>
+                
+            </ul>
+            <div class="main-nav-input__menu" >
+                <input type="text" id="search" value="Buscar..." onfocus="vaciar(this)" onblur="llenar(this)" >
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main-banner" >
+            <div class="animado" id="box" >
+                <h2>Temas</h2>
+            </div>
+            <div class="boxes" >
+                <a href="/pages/incendio-forestales.html">
+                    <div class="box animado" id="box1">
+                    <p>Incendios forestales</p>
+                </div>
+                </a>
+                <div class="box animado" id="box2">
+                    <p>ª</p>
+                </div>
+                <div class="box animado" id="box3">
+                    <p>ª</p>
+                </div>
+                <div class="box animado" id="box4">
+                    <p>ª</p>
+                </div>
+            </div>
+            <div>
+                <i class="fas fa-angle-double-down" id="icon"></i>
+            </div>
+        </div>
+    </main>
+    <script src="js/scripts.js"></script>
+    
+</body>
+</html>
